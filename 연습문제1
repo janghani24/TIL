@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class Practice {
+
+	public static void main(String[] args) {
+		//메트로폴리스의 기준은 아래 두 조건 중 하나를 만족해야합니다.
+		//1.한 나라의 수도이고 인구가 100만명 이상이어야한다.
+		//2.부자가 50만명 이상이어야 한다.
+		
+		//수도입니까? (수도 : 0 수도아님 : 1)
+		//인구 (단위 : 만)
+		//부자의 수 (단위 : 만)
+		//을 입력했을 때
+		
+		//메트로폴리스 여부를 true나 false로 알려주는 프로그램을 작성하세요.
+		
+		Scanner k = new Scanner(System.in );
+		
+		System.out.println("수도입니까?(수도 : 0, 수도 아님 : 1) :");
+		int capital = k.nextInt();
+		System.out.println("인구(단위 : 만)  :");
+		int population = k.nextInt();
+		System.out.println("부자의 수(단위 : 만) :");
+		int rich = k.nextInt();
+
+		System.out.println("결과 : ");
+		if ((capital == 0 && population>=100) || rich >=50) {
+			System.out.println("true");
+		}else {
+			System.out.println("false");
+		}
+		
+		
+	}
+
+}
