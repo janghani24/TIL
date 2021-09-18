@@ -1,0 +1,76 @@
+class plane{
+	private String maker;
+	private String model;
+	private int maxClient;
+	private static int planes;
+	
+	
+	
+	public plane() {
+		planes++;
+	}
+	
+	public plane(String maker, String model, int maxClient) {
+		super();
+		planes++;
+		this.maker = maker;
+		this.model = model;
+		this.maxClient = maxClient;
+	}
+	
+	public String getMaker() {
+		return maker;
+	}
+	
+	public void setMaker(String maker) {
+		this.maker = maker;
+	}
+	
+	public String getModel() {
+		return model;
+	}
+	
+	public void setModel(String model) {
+		this.model = model;
+	}
+	
+	public int getMaxClient() {
+		return maxClient;
+	}
+	
+	public void setMaxClient(int maxClient) {
+		this.maxClient = maxClient;
+	}
+	
+	public static int getPlanes() {
+		return planes;
+	}
+	
+	
+	
+	
+	
+}
+	
+	
+	
+	
+public class PlaneTest {
+public static void main(String[] args) {
+	
+	plane p1 = new plane();
+	p1.setMaker("boeing");
+	p1.setModel("B747");
+	p1.setMaxClient(25);
+	System.out.println(p1.getMaker());
+	
+	plane p2 = new plane("airbus", "A380", 28);
+	System.out.println(p2.getModel());
+	System.out.println(plane.getPlanes());
+	
+	
+	
+	
+}
+
+}
