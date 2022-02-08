@@ -1,0 +1,96 @@
+body{
+    /* html 기본 여백 없애기 */
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(241, 220, 220);
+}
+
+td{
+    text-align: center;
+}
+#siteTbl{
+    position: fixed;
+
+    top: 0px;
+    width: 100%;
+    background-color: rgb(231, 85, 40);
+
+}
+
+#siteTitle{
+    background-color: rgb(235, 90, 90);
+    color: moccasin;
+    font-size: 20pt;
+    height: 60px;
+    font-weight: 900;
+}
+
+#siteTitle:hover {
+    color: rgb(46, 44, 25);
+}
+
+#siteMenuTbl{
+    width: 100%;
+    height: 50px;
+}
+
+#contentTbl{
+    margin-top: 125px;
+    width: 100%;
+    height: 600px;
+    background-color: ivory;
+    /* inherit => body색 따라가기 */
+}
+
+#titleImg{
+    width: 800px;
+    border-radius: 50px;
+    box-shadow: 15px 15px 15px rgb(54, 48, 48);
+    /* 오른쪽,높이,퍼짐의 정도 */
+
+}
+
+.menuClass{
+    color: orange;
+    text-decoration: none;
+
+}
+
+.menuClass:link{
+    color: papayawhip;
+    text-decoration: none;
+}
+
+.menuClass:visited{
+    color: snow;
+    text-decoration: none;
+}
+
+.menuClass:hover{
+    font-size: 18pt;
+    transition: font-size 1s ease-in;
+}
+
+#joinTbl{
+    border: 3px solid darkblue;
+    width: 400px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(205, 234, 243);
+}
+/* margin - 외간격
+padding - 내간격 */
+.joinC{
+    color: navy;
+    font-size: 15pt;
+    font-weight: 600;
+}
+.bxslider div img{
+    max-width: 500px;
+    
+}
+.bx-wrapper{
+    margin-left: auto;
+    margin-right: auto;
+}

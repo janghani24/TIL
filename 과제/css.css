@@ -1,0 +1,152 @@
+body{
+    /* html 기본 여백 없애기 */
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.bx-wrapper{
+    text-align: center;
+    background-color: #f4eddc;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.bx-wrapper img{
+    text-align: center;
+    
+ }
+
+#topTbl{
+    width : 100%;
+    height : 500px;
+    background-color: #f4eddc;
+    top: 100%;
+}
+
+
+
+#topMenu{
+    font-style: "맑은 고딕";
+    font-size: 14px;
+    text-align: center;
+}
+
+#menu2{
+    width: 100%;
+    height: 600px;
+
+}
+
+#subMenu{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    font-style: "맑은 고딕";
+    border-collapse : collapse;
+}
+
+#yellowIcon{
+    background-color: rgb(255, 219, 13);
+}
+
+#boldTitle{
+    font-style: "맑은 고딕";
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+#contents{
+    color: #666666;
+    font-size: 10pt;
+}
+
+#menu3{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#menu4{
+    height: 310px; 
+    width: 1900px;
+    background-color: #f7f6f6;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contentsTitle{
+    font-size: 10pt;
+    width: 180px;
+    text-align: left;
+    padding-left: 10px;
+    
+}
+
+#topContents{
+    font-size: 9pt;
+    text-align: left;
+    color: #888888;
+    vertical-align: top;
+    width: 100px;
+    letter-spacing: 0.1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+#bottomIcon{
+    text-align: center;
+    vertical-align: top;
+}
+
+#bottomContents{
+    font-size: 9.7pt;
+    vertical-align: top;
+    height: 40px;
+}
+
+#button{
+    height: 40px;
+    background-color: white;
+    margin-left: 3pt;
+    margin-right: 3pt;
+    vertical-align: middle;
+    border-width: 0.5px;
+    border-color: rgb(190, 188, 188);
+}
+
+#joinTbl{
+    border: 3px solid #ffc04a;
+    width: 400px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fbffbd;
+    text-align: center;
+}
+
+#contentTbl{
+    margin-top: 125px;
+    width: 100%;
+    height: 600px;
+    background-color: ivory;
+}
+
+.joinC{
+    color: rgb(100, 58, 4);
+    font-size: 15pt;
+    font-weight: 600;
+}
+
+#ageTbl{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: wheat;
+    font-size: 20pt;
+}

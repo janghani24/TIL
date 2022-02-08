@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- 
+    CSS(Cascading Style Sheet)
+    html의 DOM객체에 디자인을 입힐 수 있는 언어
+
+    선택자{
+        속성명: 값,
+        속성명: 값,
+        ..
+    }
+
+    - 기본형
+        태그명 : 그거 다
+        #id : id가 그거인 객체
+        .class : class가 그거인 객체'들'
+
+    - 상태형
+        기본형 : 상태    
+
+    - 조합형
+ -->
+<style>
+    h2{
+        color: antiquewhite;
+    }
+    h3{
+        color: cadetblue;
+        font-size: 30pt;
+    }
+    h1{
+        color: goldenrod;
+    }
+    .keke{
+        color: indianred;
+    }
+    #hehe{
+        color: midnightblue;
+    }
+    #spanblue{
+        background-color:silver;
+    }
+    span1{
+        font-size: 50pt;
+        color: tomato;
+    }
+
+    p{
+        transition:font-size 1s ease-in;
+        /* 발동 시간 제어 */
+    }
+    p:hover{
+        /* hover : 마우스 올라가 있을 때 */
+        color:yellowgreen
+    }
+
+    p:active{
+        /* active : 클릭한 상태일 때 */
+        font-size: 40pt;
+    }
+    
+    h1+h5{
+        font-size: 30pt;
+    }
+
+</style>
+
+<body>
+    <h2>HTML : 뼈대</h2>
+    <h2>CSS : 디자인</h2>
+    <h3>Java<span id="spanblue">Script</span> : 이벤트</h3>
+
+    <h1 class="keke">CSS도 금방 끝나요</h1>
+    <h1 class="keke">곧 점심이니까</h1>
+    <h1 id="hehe"><span1>힘</span1>내세요.</h1>
+    <h1>근데<h5>어렵진 않죠?</h5></h1>
+    <hr>
+    저 위에서 '힘'이라는 글자만 50pt에 빨강색으로
+
+    <p>곧 점심이네요 ㅎㅎ</p>
+</body>
+</html>

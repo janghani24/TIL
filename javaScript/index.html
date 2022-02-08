@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Js06_Func.js"></script>
+</head>
+<body>
+    <button onclick="call()">ㅎㅅㅎ 이름, 나이</button>
+    <h3 ondblclick="gugudan()">2단 출력!(덥클)</h3>
+    <button onclick="add(1,2)">숫자 써</button>
+    <br><br>
+    <button id="pb" onclick="printGugudan(20);
+    document.getElementById('pb').style.backgroundColor='blueviolet';
+    document.getElementById('pb').style.color='white';
+    ">단</button>
+<!-- ""와 '' 를 둘 다 사용가능한 이유 => 혼용해서 사용해야하기 때문. -->
+<!-- ""만 사용할 경우 시작과 마침이 중복되므로 인식이 힘들 수 있다. -->
+
+<form name="myForm" onsubmit="return printGugudan2()">
+    <input name="i1">
+    <button>단 출력</button>
+
+</form>
+
+<input id="i2">
+<button onclick="printGugudan3()">단 출력2</button>
+<hr>
+<button id="b1" style="background-color: black;
+color: blanchedalmond;
+width:200px;
+height:70px;
+font-size: 25pt;
+font-weight: 900;
+" onclick="
+document.getElementById('b1').style.backgroundColor='orange';
+document.getElementById('b1').style.color='blue';
+document.getElementById('b1').style.width='220px';
+document.getElementById('b1').style.height='75px';
+document.getElementById('b1').style.fontSize='27pt';
+
+
+">눌러눌러</button>
+
+<button onclick="printGugudan3()">단 출력2</button>
+<hr>
+<button id="b2" style="background-color: black;
+color: blanchedalmond;
+width:200px;
+height:70px;
+font-size: 25pt;
+font-weight: 900;
+" onclick="
+document.getElementById('b2').style.backgroundColor='orange';
+document.getElementById('b2').style.color='blue';
+document.getElementById('b2').style.width='220px';
+document.getElementById('b2').style.height='75px';
+document.getElementById('b2').style.fontSize='27pt';
+">내 버튼1</button>
+
+<hr>
+<button id="b3" style="background-color: black;
+color: blanchedalmond;
+width:200px;
+height:70px;
+font-size: 25pt;
+font-weight: 900;
+" onclick="
+document.getElementById('b3').style.backgroundColor='orange';
+document.getElementById('b3').style.color='blue';
+document.getElementById('b3').style.width='220px';
+document.getElementById('b3').style.height='75px';
+document.getElementById('b3').style.fontSize='27pt';
+">내 버튼2</button>
+
+<button style="background-color: black;
+color: blanchedalmond;
+width:200px;
+height:70px;
+font-size: 25pt;
+font-weight: 900;
+" onclick="
+// this => 자기자신
+this.style.backgroundColor='orange'; 
+this.style.color='blue';
+this.style.width='220px';
+this.style.height='75px';
+this.style.fontSize='27pt';
+">내 버튼50</button>
+
+
+</body>
+</html>

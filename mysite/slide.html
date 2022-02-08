@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $('.bxslider').bxSlider({
+  mode:'fade',
+  autoControls: false,
+  pause: 2000,
+  auto: true,
+  stopAutoOnClick: true,
+  pager: true,
+  slideWidth: 500
+          });
+        });
+        
+       </script>
+    
+
+</head>
+<body>
+        <table  id="siteTbl">
+            <tr>
+                <td id="siteTitle"><a href="index.html">HN's Website</a></td>
+            </tr>
+            <tr>
+                <td><table  id="siteMenuTbl">
+                    <tr>
+                        <td><a class="menuClass" href="menu1.html">메뉴1</a></td>
+                        <td><a class="menuClass" href="join.html">가입</a></td>
+                        <td><a class="menuClass" href="slide.html">슬라이드</a></td>
+                        <td> <a href="https://www.naver.com">네이버로</a></td>
+                    </tr>
+                </table></td>
+            </tr>   
+     
+
+        </table>
+        <table  id="contentTbl">
+    <tr>
+        <td id="slidetd">
+            <div class="bxslider">
+                <div><img src="청우.jpg"></div>
+                <div><img src="아현.jpg"></div>
+                <div><img src="문대금.jpg"></div>
+              </div>
+        </td>
+    </tr>
+
+        </table>
+</body>
+</html>
